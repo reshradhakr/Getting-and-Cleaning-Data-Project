@@ -2,13 +2,14 @@
 trainx 
 trainy 
 subjecttrain
-testx <- read.table("C:/Reshma/Personal/Rcode/UCI HAR Dataset/test/X_test.txt")
-testy <- read.table("C:/Reshma/Personal/Rcode/UCI HAR Dataset/test/y_test.txt")
-subjecttest <- read.table("C:/Reshma/Personal/Rcode/UCI HAR Dataset/test/subject_test.txt")
+testx 
+testy
+subjecttest
 datax
 datay
+
 # Merges the training and the test sets to create one data set.
-datasubject <- rbind(subjecttrain, subjecttest)
+datasubject
 
 # Extracts only the measurements on the mean and standard deviation for each measurement.
 
