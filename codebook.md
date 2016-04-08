@@ -1,8 +1,8 @@
 # Read files into table
   trainx, trainy, subjecttrain, testx, testy, subjecttest
   
-# Created datasets to store x and y 
-  datadatax, datay
+# Created datasets to store x and y data
+  datax, datay
 
 # Merges the training (subjecttrain) and the test (subjecttest) sets to create one data set using rbind function
   datasubject
